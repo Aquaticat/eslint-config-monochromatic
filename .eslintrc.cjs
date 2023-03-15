@@ -124,7 +124,7 @@ module.exports = {
           32,
           '32n',
           -32,
-          '32n',
+          '-32n',
 
           //region Common window width and height.
           // Note: Height is only relevant when app is in fullscreen.
