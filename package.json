@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-monochromatic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Monochromatic's ESLint config",
   "main": "index.cjs",
   "repository": {
