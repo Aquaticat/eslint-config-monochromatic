@@ -42,11 +42,7 @@ module.exports = {
 
     'accessor-pairs': 'error',
 
-    'arrow-body-style': [
-      'error',
-      'as-needed',
-      { requireReturnForObjectLiteral: true },
-    ],
+    'arrow-body-style': ['error', 'as-needed'],
 
     // The keyword var should not be used anyway.
     'block-scoped-var': 'error',
