@@ -321,7 +321,7 @@ module.exports = {
 
     'generator-star-spacing': 'error',
 
-    'implicit-arrow-linebreak': 'error',
+    'implicit-arrow-linebreak': ['error', 'below'],
 
     'indent': [
       'warn',
