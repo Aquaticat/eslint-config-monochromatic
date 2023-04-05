@@ -292,6 +292,8 @@ module.exports = {
 
     //region Layout & Formatting
 
+    /* Let dprint handle it.
+       Edit: No need, keeping this allows eslint to fix it. Also, this somehow doesn't conflict with dprint. */
     'array-bracket-newline': ['warn', { multiline: true, minItems: 3 }],
     'array-bracket-spacing': 'warn',
     'array-element-newline': [
@@ -413,7 +415,7 @@ module.exports = {
 
     'no-whitespace-before-property': 'error',
 
-    'nonblock-statement-body-position': 'error',
+    'nonblock-statement-body-position': ['below', { overrides: { do: 'any' } }],
 
     'object-curly-newline': [
       'error',
