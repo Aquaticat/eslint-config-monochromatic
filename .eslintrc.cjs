@@ -433,7 +433,7 @@ module.exports = {
 
     'object-property-newline': ['error', { allowAllPropertiesOnSameLine: true }],
 
-    'operator-linebreak': ['error', 'before'],
+    'operator-linebreak': ['error', 'before', { overrides: { "=": "after" } }],
 
     'padded-blocks': [
       'error',
