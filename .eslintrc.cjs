@@ -50,7 +50,9 @@ module.exports = {
 
     'class-methods-use-this': 'error',
 
-    'curly': 'error',
+    /* Let dprint handle it.
+       preferNone */
+    'curly': 'off',
 
     'default-case': 'error',
     'default-case-last': 'error',
