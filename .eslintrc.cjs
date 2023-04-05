@@ -415,7 +415,7 @@ module.exports = {
 
     'no-whitespace-before-property': 'error',
 
-    'nonblock-statement-body-position': ['below', { overrides: { do: 'any' } }],
+    'nonblock-statement-body-position': ['error', 'below', { overrides: { do: 'any' } }],
 
     'object-curly-newline': [
       'error',
