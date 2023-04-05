@@ -548,7 +548,8 @@ module.exports = {
 
     'rest-spread-spacing': 'error',
 
-    'semi': ['error', 'always'],
+    // Let dprint handle it.
+    'semi': ['off', 'always'],
 
     'semi-spacing': 'error',
 
