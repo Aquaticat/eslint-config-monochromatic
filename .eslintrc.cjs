@@ -74,6 +74,9 @@ module.exports = {
 
     'no-array-constructor': 'error',
 
+    // I intentionally use extra semiColons. Also see dprint.json
+    'no-extra-semi': 'off',
+
     'no-floating-decimal': 'error',
 
     'no-implicit-coercion': 'error',
@@ -321,10 +324,12 @@ module.exports = {
 
     'generator-star-spacing': 'error',
 
-    'implicit-arrow-linebreak': ['error', 'below'],
+    // Turned it off because I want to let dprint handle it.
+    'implicit-arrow-linebreak': ['off', 'below'],
 
     'indent': [
-      'warn',
+      // Turned it off because I want to let dprint handle it.
+      'off',
       2,
 
       {
