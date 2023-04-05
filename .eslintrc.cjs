@@ -310,7 +310,9 @@ module.exports = {
 
     'brace-style': 'warn',
 
-    'comma-dangle': ['error', 'always-multiline'],
+    // Let dprint handle it.
+    'comma-dangle': ['off', 'always-multiline'],
+
     'comma-spacing': 'error',
     'comma-style': 'error',
 
@@ -322,7 +324,9 @@ module.exports = {
 
     'func-call-spacing': 'error',
     'function-call-argument-newline': ['error', 'consistent'],
-    'function-paren-newline': ['error', 'never'],
+
+    // Let dprint handle it.
+    'function-paren-newline': ['off', 'never'],
 
     'generator-star-spacing': 'error',
 
